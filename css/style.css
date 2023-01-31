@@ -1,0 +1,20 @@
+body{
+    background-color;
+    margin: 0;
+    font-size: 1.7vw;
+}
+.main-header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-logo{
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    display: flex;
+    column-gap: 2vw;
+}
+.nav-item{
+    font-family: 'Poppins', sans-serif;
+}
