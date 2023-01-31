@@ -18,3 +18,11 @@ body{
 .nav-item{
     font-family: 'Poppins', sans-serif;
 }
+.header-images{
+    display: flex;
+    column-gap: 1.5vw;
+}
+.header-img{
+    width: 2vw;
+    height: 2vw;
+}
