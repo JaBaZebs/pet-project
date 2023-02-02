@@ -1,7 +1,7 @@
 body{
-    background-color;
     margin: 0;
     font-size: 1.7vw;
+    font-family: 'Poppins', sans-serif;
 }
 .main-header{
     display: flex;
@@ -17,12 +17,69 @@ body{
 }
 .nav-item{
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s linear;
 }
-.header-images{
+.nav-item:hover{
+    color:orange;
+}
+.header-images-buttons{
     display: flex;
     column-gap: 1.5vw;
+    margin-left: 1.5vw;
+}
+.header-image-btn{
+    transform: 0.2s linear;
+}
+.header-image-btn:hover{
+    filter: opacity(0.5) drop-shadow(0 0 0 orange);
 }
 .header-img{
-    width: 2vw;
-    height: 2vw;
+    width: 1.8vw;
+    height: 1.8vw;
+}
+.page-1{
+    background: url(../images/main/page-1/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.page-1-container{
+    padding-left: 60%;
+    padding-top: 20%;
+    
+}
+.page-1 h5{
+    font-weight: 500;
+    font-size: 1.2vw;
+    color: #22262A;
+    margin: 0;
+}
+.page-1 h2{
+    font-size: 5vw;
+    color: #22262A;
+    margin: 0;
+}
+.page-1 h7{
+    font-size: 1.2vw;
+    color: #22262A;
+    margin: 0;
+}
+.page-1-buttons{
+    display: flex;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    column-gap: 3vw;
+    padding-bottom: 10vw;
+}
+.page-1-btn{
+    background:#22262A;
+    border: none;
+    cursor: pointer;
+    width: 11vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: white;
+    padding-top: 0.2vw;
+    height: 3vw;
 }
