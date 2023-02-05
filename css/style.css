@@ -175,18 +175,42 @@ body{
     margin-top: 10vw;
 }
 .page-5-container{
-    margin: 3vw;
+    padding: 3vw;
 }
 .auto-size{
     height: 100%;
     width: 100%;
 }
 .auto-size-img{
-    max-height: 100%;
-    height: auto;
-    width: auto;
+    position: absolute;
+
 }
 .auto-size-grid{
-    height: 90%;
-    width: 88%;
+    height: 85%;
+    width: 85%;
+}
+.img-1{
+    margin-top: 7vw;
+    height: 80%;
+    width: 40%;
+}
+.img-2{
+    margin-top: 0vw;
+    margin-left: 43vw;
+    height: 60%;
+    width: 40%;
+}
+.img-3{
+    border: 2vw solid white;
+    height: 40%;
+    width: 15%;
+    margin-top: 20vw;
+    margin-left: 70vw;
+}
+.page-5-container h4{
+    position: absolute;
+    margin-top: 35vw;
+    margin-left: 47vw;
+    color: #22262A;
+    border-bottom: 0.3vw solid #22262A;
 }
