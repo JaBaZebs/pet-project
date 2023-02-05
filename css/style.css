@@ -120,12 +120,7 @@ body{
 .page-3-container{
     margin: 0 3vw;
 }
-.page-3 hgroup h4, h6{
-    color: #22262A;
-    margin: 0;
-    text-align: center;
-}
-.page-4 hgroup h4, h6{
+.text-page{
     color: #22262A;
     margin: 0;
     text-align: center;
@@ -158,9 +153,6 @@ body{
     font-size: 1.3vw;
     margin: 0.5vw 0 0 0;
 }
-.card-image{
-    
-}
 .amount-container{
     display: flex;
     column-gap: 4vw;
@@ -177,4 +169,9 @@ body{
 .page-4{
     margin-top: 10vw;
 }
-.dkjdjd{}
+.center-text{
+    text-align: center;
+}
+.page-5{
+    margin-top: 10vw;
+}
