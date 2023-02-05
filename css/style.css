@@ -260,13 +260,69 @@ body{
     display: flex;
     justify-content: space-around;
 }
+footer{
+    background-color: #ececec;
+}
 .right{
     width: 40%;
 }
 .right h6{
-    font-size: 3vw;
+    font-size: 2vw;
     margin-bottom: 0;
 }
 .right p{
     margin-top: 2%;
+    font-size: 1vw;
+}
+.adress{
+    display: flex;
+    column-gap: 1.5vw;
+}
+.adress h1{
+    font-size: 1vw;
+    font-weight: 400;
+}
+.email{
+    padding-bottom: 0.7vw;
+    position: relative;
+}
+.email::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    bottom: -7.5vw;
+    left: 18%;
+    height: 15vw;
+    width: 1px;
+    rotate: 90deg;
+}
+.right h2{
+    font-size: 1vw;
+    font-weight: 400;
+}
+.right ul{
+    list-style: none;
+    display: flex;
+    column-gap: 1vw;
+    padding-left: 0;
+}
+.left form{
+    margin-top: 4.7vw;
+}
+.left form label {
+    font-weight: 700;
+    font-size: 3vw;
+}
+.left form button{
+    border: none;
+    font-weight: 700;
+    background-color: white;
+    padding-left: 0;
+    font-size: 1.5vw;
+    color: #22262A;
+    cursor: pointer;
+}
+.left form input{
+    border: none;
+    outline: none;
 }
