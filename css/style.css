@@ -256,3 +256,17 @@ body{
 .page-6 button:active{
     transform: scale(0.9);
 }
+.foot-1{
+    display: flex;
+    justify-content: space-around;
+}
+.right{
+    width: 40%;
+}
+.right h6{
+    font-size: 3vw;
+    margin-bottom: 0;
+}
+.right p{
+    margin-top: 2%;
+}
