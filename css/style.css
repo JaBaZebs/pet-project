@@ -125,7 +125,15 @@ body{
     margin: 0;
     text-align: center;
 }
+.page-4 hgroup h4, h6{
+    color: #22262A;
+    margin: 0;
+    text-align: center;
+}
 .page-3 h6{
+    margin-top: 0.5vw;
+}
+.page-4 h6{
     margin-top: 0.5vw;
 }
 .card-holder{
@@ -165,4 +173,7 @@ body{
 .amount-true{
     font-size: 1.15vw;
     color: red;
+}
+.page-4{
+    margin-top: 10vw;
 }
