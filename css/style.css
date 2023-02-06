@@ -169,13 +169,13 @@ body{
     color: red;
 }
 .page-4{
-    margin-top: 10vw;
+    margin-top: 13vmax;
 }
 .center-text{
     text-align: center;
 }
 .page-5{
-    margin-top: 10vw;
+    margin-top: 13vmax;
 }
 .page-5-container{
     padding: 3vw;
@@ -336,4 +336,24 @@ footer{
     padding-right: 2vw;
     width: 30vw;
     border-radius: 20px 0 0 20px;
+}
+.foot-container{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-container h1{
+    margin-bottom: 0;
+}
+.foot-container ul{
+    list-style: none;
+    padding: 0;
+    row-gap: 1vw;
+}
+.foot-container li{
+    margin-bottom: 1vw;
+}
+.foot-container a{
+    text-decoration: none;
+    color:#22262A;
+    font-size: 1.3vw;
 }
