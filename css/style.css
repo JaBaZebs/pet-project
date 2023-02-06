@@ -258,7 +258,8 @@ body{
 }
 .foot-1{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    column-gap: 2vw;
 }
 footer{
     background-color: #ececec;
@@ -309,20 +310,30 @@ footer{
 .left form{
     margin-top: 4.7vw;
 }
-.left form label {
+.form-content label {
     font-weight: 700;
     font-size: 3vw;
 }
-.left form button{
+.form-content button{
     border: none;
     font-weight: 700;
     background-color: white;
-    padding-left: 0;
+    padding: 5% 6%;
     font-size: 1.5vw;
     color: #22262A;
     cursor: pointer;
+    border-radius: 0 20px 20px 0;
 }
-.left form input{
+.form-content{
+    display: flex;
+
+}
+.form-content input{
     border: none;
     outline: none;
+    padding-left: 1vw;
+    font-size: 1.7vw;
+    padding-right: 2vw;
+    width: 30vw;
+    border-radius: 20px 0 0 20px;
 }
