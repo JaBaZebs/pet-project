@@ -161,12 +161,12 @@ body{
     column-gap: 4vw;
 }
 .amount-false{
-    font-size: 1.15vw;
+    font-size: 1.7vw;
     text-decoration: line-through;
     color: black;
 }
 .amount-true{
-    font-size: 1.15vw;
+    font-size: 1.7vw;
     color: red;
 }
 .page-4{
@@ -194,8 +194,8 @@ body{
 
 }
 .auto-size-grid{
-    height: 85%;
-    width: 85%;
+    height: 30vw;
+    width: 18vw;
 }
 .img-1{
     margin-top: 7vw;
