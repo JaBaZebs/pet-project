@@ -49,12 +49,13 @@ body{
 .page-1{
     background: url(../images/main/page-1/bg.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% auto;
     padding-bottom: 0;
 }
 .page-1-container{
     padding-left: 60%;
-    padding-top: 20%;
+    padding-top: 10%;
+    padding-right: 3%;
     padding-bottom: 10vmax;
     
 }
@@ -65,7 +66,7 @@ body{
     margin: 0;
 }
 .page-1 h2{
-    font-size: 5vw;
+    font-size: 4vw;
     color: #22262A;
     margin: 0;
 }
@@ -76,7 +77,7 @@ body{
 }
 .page-1-buttons{
     display: flex;
-    margin-left: 2vw;
+    margin-left: 1.3vw;
     margin-top: 2vw;
     column-gap: 3vw;
     padding-bottom: 9.5vw;
@@ -88,8 +89,9 @@ body{
     width: 11vw;
     font-size: 1.5vw;
     font-weight: 500;
+    white-space: nowrap;
     color: white;
-    padding-top: 0.2vw;
+    padding: 0.2vw 1vw 0.2vw 1vw;
     height: 3vw;
 }
 .page-2-container{
@@ -153,8 +155,8 @@ body{
     word-break: break-all;
 }
 .card p{
-    font-size: 1.3vw;
     margin: 0.5vw 0 0 0;
+    font-size: 1.5vw;
 }
 .amount-container{
     display: flex;
